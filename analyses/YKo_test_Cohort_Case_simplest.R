@@ -90,7 +90,7 @@ model {
   // TODO: adjust priors based on domain knowledge
   for (r in 1:R)
     for (t in 1:T)
-      lambda[r, t] ~ exponential(2);   // mean 0.1, skewed toward low FOI
+      lambda[r, t] ~ exponential(2);   //
 
   rho ~ beta(2, 18);                 // mean ~0.1, low reporting rate prior
   phi ~ exponential(1);
@@ -706,3 +706,24 @@ ggplot(cases_cum_combined, aes(x = age_label)) +
        y = "Cumulative cases", x = "Age group") +
   theme_bw() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+# ══════════════════════════════════════════════════════════════════
+# 12. Underreporting factor by Municipality
+# ══════════════════════════════════════════════════════════════════
+
+fit$summary("rho") %>%
+  mutate(municipality = regions) %>%
+  ggplot(aes(x = fct_reorder(municipality, mean), y = mean,
+             ymin = q5, ymax = q95)) +
+  geom_pointrange(color = "steelblue", linewidth = 0.8, size = 0.8) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray50") +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
+  labs(title = "Underreporting factor by municipality",
+       subtitle = "Point = posterior mean, range = 90% CI",
+       x = NULL, y = "Underreporting factor") +
+  theme_bw()
+
+
+
