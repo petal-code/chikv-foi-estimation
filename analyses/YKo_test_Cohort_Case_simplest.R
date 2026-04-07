@@ -90,7 +90,7 @@ model {
   // TODO: adjust priors based on domain knowledge
   for (r in 1:R)
     for (t in 1:T)
-      lambda[r, t] ~ gamma(1, 10);   // mean 0.1, skewed toward low FOI
+      lambda[r, t] ~ exponential(2);   // mean 0.1, skewed toward low FOI
 
   rho ~ beta(2, 18);                 // mean ~0.1, low reporting rate prior
   phi ~ exponential(1);
