@@ -78,7 +78,30 @@ transformed parameters {
     }
   }
 }
-
+  // -- Seroprevalence: referece-aggregated data fitting  -----------------
+  //Using the acerage predicted seroprevalence across ages
+  array[N_ref] real<lower=0, upper = 1>pi_ref //pi_ref = predicted seroprevalence per paper
+  for (i in 1:N_ref) {
+  int ts = survey_yr_ref_idx[i] // time index of survey year (1 = year start)
+  int survey_yr = year_start + ts - 1 //convert to calendar year
+  int n_ages = age_hi_ref[i] - age_lo_ref[i] + 1 //number of ages 
+  real cum_pi = 0;
+  for (a in age_lo_ref[i]:age_hi_ref[i]) {
+    int birth_yr = survey_yr - a //convert birth yr to time index in model
+    int t_birth = birth_yr - year_start + 1;
+    int t_start = max(1, t_birth)
+    real cum_foi  = 0.0;
+    for (t in t_start:ts)
+      cum_foi += lambda[r_ref[i], t];
+    cum_pi += 1.0 - exp(-cum_foi);             // accumulate across age band
+  }
+  pi_ref[i] = cum_pi / n_ages;                 // average over age band
+  }
+  }
+  
+  
+  
+  
 model {
   // -- Priors -------------------------------------------------------
   //for (r in 1:R)

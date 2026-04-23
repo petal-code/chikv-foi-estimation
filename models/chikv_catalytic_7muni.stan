@@ -12,6 +12,15 @@ data {
   array[R, A_sero, T_survey] int<lower=0>    tested;           // sero tested
   array[R, T]                int<lower=0>    cases;            // notified cases
   vector<lower=0>[R]                         N_init;           // 2014 population
+
+  // -- Reference literature sero data (age-band aggregated) -------
+  int<lower=0>                       N_ref;
+  array[N_ref] int<lower=1, upper=R> r_ref;
+  array[N_ref] int<lower=0>          age_lo_ref;
+  array[N_ref] int<lower=0>          age_hi_ref;
+  array[N_ref] int<lower=1, upper=T> survey_yr_ref_idx;
+  array[N_ref] int<lower=0>          pos_ref;
+  array[N_ref] int<lower=0>          tested_ref;
 }
 
 parameters {
