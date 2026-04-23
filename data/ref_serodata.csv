@@ -1,0 +1,51 @@
+Final_Summary_serodata,,,,,,,,,,,,,,,,,,,,,,
+Study,PMIDÊ,Municipality,Municipality ID,State,Female,Male,Total participants (F+M),IgG positive,IgM positive,IgG + IgM positive,Total positive,Age-range,Age_individualized,Minimum_Age,Maximum_Age,Seropositive_rate,Period,Year (for model),Testing method,Population,Email,Note:
+1,PMID:Ê35384956,Cruzeiro do Sul,120020,AC,435,-,435,41,-,-,41,²19 - ³35,No,19,35,0.094252874,2015-2016,2015.5,ELISA (Euroimmun),asymptomatic ,revimtsp@usp.br ,This section is only for pregnant women who living in the urban area.
+2,PMID:Ê35384956,Cruzeiro do Sul,120020,AC,317,321,642,66,-,-,66,newborn,No,0,0,0.102803738,2015-2016,2015.5,ELISA (Euroimmun),asymptomatic ,,This section is for all the un-related newborns.
+3,PMID: 34391467,Manaus,130260,AM,-,298,298,-,-,-,0,IQR 24-31,No,24,31,0,2014-2015,2014.5,Hemagglutination inhibition assay (HIA),asymptomatic,pritesh.lalwani@fiocruz.br ,"This study is about the young military personnels who participating in a jungle survival course at the Jungle Warfare Traning Center (CIGS),"
+4,PMID:Ê30370414,Macap‡,160030,AP,-,-,442,1,-,-,1,16 - 69,No,16,69,0.002262443,2015,2015,ELISA (Abcam) and CHIKV RNA (TaqMan),blood donor,svetoslav.slavov@hemocentro.fmrp.usp.br ,
+5,PMID: 29553317,Feira de Santana,291080,BA,256,129,385,163,25,32,220,1 - ³60,No,1,60,0.571428571,2015-2016,2015.5,ELISA (Euroimmun),symptomatic/asymptomatic,magloria@ufba.br,
+6,PMID: 29553317,Riach‹o do Jacu’pe,292630,BA,319,127,446,138,38,28,204,1 - ³60,No,1,60,0.457399103,2015-2016,2015.5,ELISA (Euroimmun),symptomatic/asymptomatic,,
+7,PMID:Ê28107342,Riach‹o do Jacu’pe,292630,BA,62,58,120,22,2,4,24,0 - ³60,Yes,0,60,0.2,2016,2016,ELISA (Euroimmun),symptomatic/asymptomatic," julio.croda@fiocruz.br, juliocroda@ufgd.edu.br","The serosurvey was conducted in Chapada district, a rural community"
+8,PMID:Ê34181663,Juazeiro,291840,BA,26,26,52,3,-,-,3,30 - 70,No,30,70,0.057692308,2016-2017,2016.5,ELISA (Euroimmun),symptomatic/asymptomatic,Â jandir.nicacio@univasf.edu.br ;Â anderson.armstrong@univasf.edu.br ,Authors treating this location as their urbanized community.
+9,PMID:Ê32568045,Salvador,292740,BA,1011,761,1772,160,-,49,209,5 - ³40,No,5,40,0.117945824,2016-2017,2016.5,ELISA (Euroimmun),symptomatic/asymptomatic,guilherme.ribeiro@bahia.fiocruz.br ,This study was conducted in a poor urban community called Pau da Lima.
+10,PMID:Ê33878115,Feira de Santana,291080,BA,296,142,1981,360,49,29,438,1 - ³60,No,1,60,0.221100454,2017,2017,ELISA (Euroimmun),symptomatic/asymptomatic,magloria@ufba.br ,
+11,PMID:Ê38150470,Salvador,292740,BA,393,259,652,-,-,-,87,³5,Yes,5,80,0.133435583,2014-2017,2015.5,ELISA (Euroimmun),asymptomatic ,guilherme.ribeiro@fiocruz.br ,This is a prospective cohort study from Feb-Apr 2014 to Nov 2016 - Feb 2017 in Pau da Lima.
+12,PMID:Ê38150470,Salvador,292740,BA,393,259,652,-,-,-,0,³5,Yes,5,80,0,Feb-Apr 2014,2014,ELISA (Euroimmun),asymptomatic ,,Earliest survey conducted in 2014.
+13,PMID:Ê38150470,Salvador,292740,BA,393,259,652,-,-,-,70,³5,Yes,5,80,0.107361963,Aug-Nov 2015 survey,2015,ELISA (Euroimmun),asymptomatic ,,New infection detected in Aug-Nov 2015.
+14,PMID:Ê38150470,Salvador,292740,BA,393,259,652,-,-,-,10,³5,Yes,5,80,0.015337423,Mar-May 2016 survey,2016,ELISA (Euroimmun),asymptomatic ,,New infection detected in Mar-May 2016.
+15,PMID:Ê38150470,Salvador,292740,BA,393,259,652,-,-,-,7,³5,Yes,5,80,0.010736196,Nov 2016 - Feb 2017,2017,ELISA (Euroimmun),asymptomatic ,,New infection detected in Nov 2016 to Feb 2017.
+16,PMID:Ê37868343,Salvador,292740,BA,302,-,302,23,-,-,23,IQR 21-33,No,21,33,0.07615894,2017,2017,ELISA (Euroimmun),asymptomatic ,isadora.siqueira@fiocruz.br ,This study is about the postpartum women in Salvador
+17,PMID:Ê32142153,Salvador,292740,BA,101,-,101,39,23,-,62,IQR 18.5-28.5,No,18.5,28.5,0.613861386,2016,2016,ELISA (Euroimmun),symptomatic ,Â isadora.siqueira@fiocruz.br  ,This row is for 101 symptomatic parturients.
+18,PMID:Ê32142153,Salvador,292740,BA,47,55,102,-,3,-,3,newborn,No,0,0,0.029411765,2016,2016,ELISA (Euroimmun),asymptomatic,,"This row is for 102 related newborns, 6 of them were identified as microcephalic."
+19,PMID:Ê34472209,Quixad‡,231130,CE,273,136,409,-,-,-,289,<15 - >60,No,15,60,0.706601467,2018-2019,2018.5,ELISA (Euroimmun),symptomatic/asymptomatic,carllosalencar@ufc.br ,
+20,PMID:Ê33234110,Juazeiro do Norte,230730,CE,276,128,404,98,0,5,103,May-91,No,5,91,0.254950495,2018,2018,ELISA (Euroimmun),symptomatic/asymptomatic,kallineabarreto@gmail.com ,This paper has a mistake regarding the number of samples tested positive for both CHIKV IgG and IgM.
+21,PMID:Ê40137821,Fortaleza,230440,CE,1462,-,1462,-,-,-,538,15-39,No,15,39,0.367989056,2018,2018,ELISA (Euroimmun),symptomatic/asymptomatic,ligiakerr@gmail.com (L.K.); martolp@gmail.com (M.L.),First wave of suervey - Feb-Oct 2018. Attention! Data are not consistant in Table.1
+22,PMID:Ê40137821,Fortaleza,230440,CE,1462,-,1462,-,-,-,558,15-39,No,15,39,0.381668947,2018-2019,2018.5,ELISA (Euroimmun),symptomatic/asymptomatic,,Second wave of survey - Nov 2018 - Aug 2019.
+23,PMID:Ê39871200,S‹o Sebasti‹oÊ,355030,DF,898,504,1405,37,33,6,76,Jul-87,No,7,87,0.054092527,2020-2021,2020.5,ELISA (Mobius & Euroimmun),symptomatic/asymptomatic,nadjarnitz@gmail.com ,
+24,PMID:Ê35478420,Brasilia,530010,DF,194,256,450,4,5,-,9,16 - 69,No,16,69,0.02,2019,2019,ELISA (Euroimmun),blood donor,haddad@unb.br ,
+25,PMID:Ê37454038,Diamantina,312160,MG,135,-,135,-,1,-,1,14 - ³32,No,14,32,0.007407407,2018-2019,2018.5,ELISA (Euroimmun),asymptomatic, etel.vieira@ufvjm.edu.br danilo.bretas@ufvjm.edu.br,
+26,PMID:Ê34181663,Cabrob—,260330,PE,73,36,109,0,-,-,0,30 - 70,No,30,70,0,2016-2017,2016.5,ELISA (Euroimmun),symptomatic/asymptomatic,,TrukÃ¡ 
+27,PMID:Ê34181663,çguas Belas,260060,PE,175,97,272,213,-,-,213,30 - 70,No,30,70,0.783088235,2016-2017,2016.5,ELISA (Euroimmun),symptomatic/asymptomatic,,Fulni-Ã´
+28,PMID:Ê37399197,Recife,261160,PE,1207,863,2070,698,30,42,770,May-65,No,5,65,0.371980676,2018-2019,2018.5,ELISA (Euroimmun),symptomatic/asymptomatic, cynthia.braga@fiocruz.br; marques@pitt.edu  ,
+29,PMID:Ê32888023,Paulista,261070,PE,234,187,421,-,-,-,219,May-80,No,5,80,0.520190024,2017,2017,ELISA (Euroimmun),symptomatic/asymptomatic,tereza.magalhaes@colostate.edu; tecamagalhaes@hotmail.com,
+30,PMID:Ê33332373,Rio de JaneiroÊ,330455,RJ,1262,858,2120,-,-,-,371,0 - ³60,No,0,60,0.175,2018,2018,Dual-path immunochromatographic platform,symptomatic/asymptomatic,"aperisse@ensp.fiocruz.br, aperisse41@gmail.com",
+31,PMID:Ê38970294,Rio de JaneiroÊ,330455,RJ,-,-,778,166,36,-,202,16-69,No,16,69,0.259640103,2019-2022,2020.5,ELISA (Euroimmun) and RT-qPCR,blood donor,"flaviab@ioc.fiocruz.br, priscila.nunes87@gmail.com",There is no information about how many people were tested positive for both IgG and IgM.
+32,PMID:Ê30370414,Ribeir‹o PretoÊ,354340,SP,-,-,455,0,-,-,0,16 - 69,No,16,69,0,2016,2016,ELISA (Abcam) and CHIKV RNA (TaqMan),blood donor,,
+33,PMID:Ê32333001,S‹o Carlos,354890,SP,3661,1947,5608,1,8,-,9,16 - 69,No,16,69,0.00160485,2017-2018,2017.5,ELISA,blood donor,marcilio_jorge@hotmail.com,
+34,PMID:Ê38484018,S‹o Jose do Rio Preto,354980,SP,215,126,341,-,-,-,8,14-60,No,14,60,0.023460411,2015-2019,2017,ELISA (Euroimmun) and PRNT,asymptomatic,mauricio.nogueira@edu.famerp.br ,This section of study was about residents of the Vila Toninho neighborhood with three years of follow-up (cohort study).
+35,PMID:Ê38484018,S‹o Jose do Rio Preto,354980,SP,215,126,341,-,-,-,1,14-60,No,14,60,0.002932551,2015-2016,2015.5,ELISA (Euroimmun) and PRNT,asymptomatic,,Infection identifed at the base line accessment.
+36,PMID:Ê38484018,S‹o Jose do Rio Preto,354980,SP,215,126,341,-,-,-,2,14-60,No,14,60,0.005865103,2016-2017,2016.5,ELISA (Euroimmun) and PRNT,asymptomatic,,New infection identifed at the first follow up (A01) 2016-2017.
+37,PMID:Ê38484018,S‹o Jose do Rio Preto,354980,SP,215,126,341,-,-,-,1,14-60,No,14,60,0.002932551,2017-2018,2017.5,ELISA (Euroimmun) and PRNT,asymptomatic,,New infection identifed at the second follow up (A02) 2017-2018.
+38,PMID:Ê38484018,S‹o Jose do Rio Preto,354980,SP,215,126,341,-,-,-,4,14-60,No,14,60,0.011730205,2018-2019,2018.5,ELISA (Euroimmun) and PRNT,asymptomatic,,New infection identifed at the third follow up (A03) 2018-2019.
+39,PMID:Ê38484018,S‹o Jose do Rio Preto,354980,SP,305,192,497,43,22,1,65,0 - ³61,No,0,61,0.130784708,2019,2019,ELISA (Euroimmun) and PRNT,symptomatic ,,This section of study was using the symptomatic patients  during 2019 Dengue outbreak.
+40,PMID: 38670165,Salvador,292740,BA,107,116,223,34,0,0,34,young adults (Table.1),No,19,30,0.152466368,2021,2021,ELISA (Euroimmun),sickle cell disease patients,marilda.goncalves@fiocruz.br ,
+41,PMID: 38670165,ManausÊ,130260,AM,105,81,186,26,0,0,26,young adults (Table.1),No,19,30,0.139784946,2021,2021,ELISA (Euroimmun),sickle cell disease patients,,
+42,PMID: 37742825,Salvador,292740,BA,-,-,75,24,-,-,24,no information,No,,,0.32,2021-2022,2021.5,ELISA (Euroimmun),People experiencing homeless,guilherme.ribeiro@fiocruz.br ,
+43,PMID: 33922819,Recife,261160,PE,780,-,780,40,33,0,73,³15,No,15,80,0.093589744,2018-2019,2018.5,qRT-PCR and PRNT,symptomatic/asymptomatic,cynthia.braga@fiocruz.br,"hospitalized pregnant women, Results are in Table 2."
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,, ,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,  ,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
